@@ -1,49 +1,222 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-		<title>reveal.js</title>
+    <title>reveal.js</title>
 
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/reveal.css" />
+    <link rel="stylesheet" href="css/theme/black.css" />
+    <link rel="stylesheet" href="lib/css/style.css" />
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/monokai.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/monokai.css" />
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match(/print-pdf/gi)
+        ? 'css/print/pdf.css'
+        : 'css/print/paper.css';
+      document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section><h1>Blockchain...</h1></section>
+        <section>
+          <section>What is Blockchain?</section>
+          <section>
+            <img src="./lib/images/decentalized.png" />
+            <p>
+              A blockchain is a decentralized, distributed and public digital
+              ledger that is used to record transactions across many computers
+              so that any involved record cannot be altered retroactively,
+              without the alteration of all subsequent blocks.
+            </p>
+          </section>
+          <section>
+            <h2>Block?!</h2>
+            <p>
+              Blocks hold batches of valid transactions that are hashed and
+              encoded into a Merkle tree. Each block includes the cryptographic
+              hash of the prior block in the blockchain, linking the two. The
+              linked blocks form a chain. This iterative process confirms the
+              integrity of the previous block, all the way back to the original
+              genesis block.
+            </p>
+          </section>
+          <section>
+            <img src="./lib/images/root.png" />
+            <p>
+              Each block contains a cryptographic hash of the previous block, a
+              timestamp, and transaction data (generally represented as a Merkle
+              tree)
+            </p>
+          </section>
+          <section>
+            <img src="./lib/images/merkle2.png" />
+          </section>
+          <section>
+            <img src="./lib/images/merkle1.png" />
+          </section>
+          <section>
+            <img src="./lib/images/how1.png" />
+          </section>
+          <section>
+            <img src="./lib/images/how2.png" />
+          </section>
+          <section>
+            <img src="./lib/images/how3.png" />
+          </section>
+        </section>
+        <section>
+          <section>How Does a Blockchain Work?</section>
+          <section>
+            <img src="./lib/images/store-data.png" />
+            <p>
+              By design, a blockchain is resistant to modification of the data.
+              It is an open, distributed ledger that can record transactions
+              between two parties efficiently and in a verifiable and permanent
+              way.
+            </p>
+          </section>
+          <section>
+            <img src="./lib/images/p2p.jpg" />
+            <p>
+              For use as a distributed ledger, a blockchain is typically managed
+              by a peer-to-peer network collectively adhering to a protocol for
+              inter-node communication and validating new blocks.
+            </p>
+          </section>
+          <section>
+            <img
+              width="300px"
+              height="300px"
+              src="./lib/images/network-validation.png"
+            />
+            <p>
+              Once recorded, the data in any given block cannot be altered
+              retroactively without alteration of all subsequent blocks, which
+              requires consensus of the network majority.
+            </p>
+          </section>
+        </section>
+        <section>
+          <section>
+            <img src="./lib/images/benifits.png" />
+            <span>Remarkable Benefits of Blockchain Technology</span><br />
+            <span>or</span><br />
+            <span>Key Features of Blockchain</span>
+          </section>
+          <section>
+            <b>Decentralized and distributed: </b><span>A blockchain is a </span
+            ><b>decentralized</b><span>, </span><b>distributed</b
+            ><span>
+              digital record of transactions (ledger) that is secured using
+              various cryptographic techniques.</span
+            >
+          </section>
+          <section>
+            <b>Enhanced security and immutability:</b
+            ><span>
+              Every transaction is first verified before being added to the
+              blockchain. Once added, they cannot be modified by any means. It
+              is also easy to track transactions and verify them through
+              peer-to-peer consensus algorithm.</span
+            >
+          </section>
+          <section>
+            <b>Distributed Ledgers: </b
+            ><span>All members in the network have access to the same “</span
+            ><b>version of the truth</b
+            ><span>“, but no single user can control it.</span>
+          </section>
+          <section>
+            <b>Consensus-Based: </b
+            ><span
+              >In order to add a new transaction, we need to achieve network
+              consensus. This creates a trustless environment. Without efficient
+              consensus mechanism, we would have a slow and expensive
+              database.</span
+            >
+          </section>
+          <section>
+            <b>Faster: </b
+            ><span
+              >Thanks to consensus mechanism, we have the trust and can approve
+              transactions much faster.</span
+            >
+          </section>
+        </section>
+        <section>
+          <section><h2>Types of Blockhain's</h2></section>
+          <section>
+            <img src="./lib/images/choices.png" />
+            <h4>Public vs Private Blockchain Network</h4>
+          </section>
+          <section>
+            <h1>and...</h1>
+          </section>
+          <section>
+            <h4>Federated</h4>
+            <p>
+              Federated blockchain, you’ll get a decentralized private
+              environment.In federated blockchain instead of one organization
+              maintaining the network, there would be multiple organizations who
+              will take decision making role. The presence of multiple parties
+              on the network establishes the decentralized structure of the
+              federated blockchain.
+            </p>
+          </section>
+          <section>
+            <img src="./lib/images/permission.jpg" />
+            <h4>Permissioned vs Permissionless</h4>
+          </section>
+        </section>
+        <section data-background-image="./lib/images/slide-2.jpg">
+          <img width="300px" height="300px" src="./lib/images/blockchain.png" />
+        </section>
+        <section data-background-image="./lib/images/cyberacademy.jpg">
+          <h1 class="fin">FIN</h1>
+          <div class="cyber">
+            <img class="cyber__links" src="./lib/images/tel.png" /><a
+              href="https://t.me/cyberacademy"
+              ><span>t.me/cyberacademy</span></a
+            >
+          </div>
+          <div class="cyber">
+            <img class="cyber__links" src="./lib/images/youtube.png" /><a
+              href="https://www.youtube.com/channel/UCUfxwbONrtEFeCHOA3gHT-g"
+              ><span>Youtube channel</span></a
+            >
+          </div>
+        </section>
+      </div>
+    </div>
 
-		<script src="js/reveal.js"></script>
+    <script src="js/reveal.js"></script>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true }
-				]
-			});
-		</script>
-	</body>
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        dependencies: [
+          { src: 'plugin/markdown/marked.js' },
+          { src: 'plugin/markdown/markdown.js' },
+          { src: 'plugin/notes/notes.js', async: true },
+          { src: 'plugin/highlight/highlight.js', async: true }
+        ]
+      });
+    </script>
+  </body>
 </html>
